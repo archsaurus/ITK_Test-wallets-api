@@ -1,10 +1,10 @@
-# allets API
+# Wallets API
 
-[![Pylint](https://github.com/archsaurus/ITK_Test-wallets-api/actions/workflows/pylint.yml/badge.svg)](https://github.com/archsaurus/ITK_Test-wallets-api/actions/workflows/pylint.yml)
-[![Pytest](https://github.com/archsaurus/ITK_Test-wallets-api/actions/workflows/pytest.yml/badge.svg)](https://github.com/archsaurus/ITK_Test-wallets-api/actions/workflows/pytest.yml)
+[![Pylint](https://github.com/archsaurus/wallets-api/actions/workflows/pylint.yml/badge.svg)](https://github.com/archsaurus/wallets-api/actions/workflows/pylint.yml)
+[![Pytest](https://github.com/archsaurus/wallets-api/actions/workflows/pytest.yml/badge.svg)](https://github.com/archsaurus/wallets-api/actions/workflows/pytest.yml)
 ![Python Version](https://img.shields.io/badge/python-3.14%2B-blue)
 ![PostgreSQL Version](https://img.shields.io/badge/postgresql-18.0%2B-blue)
-[![License](https://img.shields.io/github/license/archsaurus/ITK_Test-wallets-api)](https://github.com/archsaurus/ITK_Test-wallets-api/blob/main/LICENCE.md)
+[![License](https://img.shields.io/github/license/archsaurus/wallets-api)](https://github.com/archsaurus/wallets-api/blob/main/LICENCE.md)
 
 
 Данный проект является FastAPI‑реализацией **REST‑API** для управления сервисом электронных кошельков в рамках выполнения тестового задания.
@@ -94,8 +94,8 @@
 ### Вариант 1. Docker (минимальная сборка, ничего лишнего  для непосредственной работы)
 
 ```sh
-$ git clone https://github.com/archsaurus/ITK_Test-wallets-api.git
-$ cd ITK_Test-wallets-api
+$ git clone https://github.com/archsaurus/wallets-api.git
+$ cd wallets-api
 $ docker compose up --build -d
 ```
 
@@ -104,8 +104,8 @@ $ docker compose up --build -d
 Требуются предустановленные `Python 3.14+` и `PostgreSQL`.
 
 ```sh
-$ git clone https://github.com/archsaurus/ITK_Test-wallets-api.git
-$ cd ITK_Test-wallets-api
+$ git clone https://github.com/archsaurus/wallets-api.git
+$ cd wallets-api
 
 $ pip-sync requirements.txt # runtime-зависимости
 $ pip-sync requirements-dev.txt # включает линтеры, mypy, pytest и т.д.
